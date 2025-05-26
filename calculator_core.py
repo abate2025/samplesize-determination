@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Dict, List, Optional
 import math
-from statsmodels.stats.power import TTestIndPower
+from statsmodels.stats.power import TTestIndPower # type: ignore
 import json
 import os
 
