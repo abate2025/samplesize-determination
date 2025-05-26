@@ -1,0 +1,59 @@
+/* Colors */
+:root {
+    --primary: #166088;
+    --secondary: #4FC3F7;
+    --accent: #FFC107;
+    --background: #F5F9FC;
+}
+
+/* Layout */
+.stApp {
+    background-color: var(--background);
+    font-family: 'Segoe UI', Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 2px solid var(--secondary);
+    margin-bottom: 1.5rem;
+}
+
+/* Cards */
+.stMetric {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.stMetric label {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.stMetric div {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary);
+}
+
+/* Form Elements */
+.stNumberInput input, .stSlider slider {
+    border-radius: 6px !important;
+}
+
+.stButton button {
+    background-color: var(--primary);
+    color: white;
+    border-radius: 6px;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s;
+}
+
+.stButton button:hover {
+    background-color: #0D4B6E;
+    transform: translateY(-2px);
+}

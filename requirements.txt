@@ -1,0 +1,5 @@
+streamlit>=1.22
+plotly>=5.11
+pandas>=1.5
+streamlit-extras>=0.2
+Pillow>=9.4
